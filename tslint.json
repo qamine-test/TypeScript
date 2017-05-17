@@ -1,5 +1,5 @@
 {
-    "rulesDirectory": "built/local/tslint",
+    "extends": [ "codelyzer", "tslint-microsoft-contrib" ],
     "rules": {
         "no-bom": true,
         "class-name": true,
